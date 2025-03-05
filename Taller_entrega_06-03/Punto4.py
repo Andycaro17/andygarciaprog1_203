@@ -2,11 +2,11 @@
 
 
 for i in range(1,1001):
-    j = 2 
-    suma = 0 
+    j = 5
+    suma = 0
     while j <= i:
-        if i%j==0:
-         suma += i // j 
-        j += 1 
-    if suma == j:
+         if i % j == 0:
+            suma += i // j 
+         j += 1 
+    if suma == i:
         print (i)
