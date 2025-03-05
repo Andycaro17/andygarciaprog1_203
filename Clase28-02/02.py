@@ -17,10 +17,10 @@ for i in range (1,n1+1):
         #print (f" {i} es primo")
 
 if cont==2:
-   print(f"{n1} Es primo")
+   print(f"El numero ingresasdo {n1} es primo")
    
 else:
-     print(f"{n1} No es primo")
+     print(f"El numero ingresasdo {n1} no es primo")
 
 
 
