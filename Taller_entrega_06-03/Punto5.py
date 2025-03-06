@@ -1,23 +1,18 @@
 #¿Cuáles y cuántos son los números primos comprendidos entre 1 y 1000? 
 
 
-#for i in range (1,1001):
-    #j = 2 
-    #suma = 0 
+n = 1 
 
-    #if i%j==0:
-        #suma+=1
+while n <= 1000:
+    cont = 1
+    j = 0
+    while cont <= n:
+        if n % cont == 0:
+            j = j + 1
+        cont = cont + 1
+    if j == 2:
+        print (n)
 
-#if suma==2:
-   #print(f"{i} Es un numero primo")
-   
-cont = 0
-j = 2
+    n = n + 1
 
-for i in range (1,1001):
-    if i%j==0:
-        cont+=1
 
-if cont==2:
-   print(f"El numero ingresasdo {i} es primo")
-   
