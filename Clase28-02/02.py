@@ -17,7 +17,7 @@ for i in range (1,n1+1):
         #print (f" {i} es primo")
 
 if cont==2:
-   print(f"El numero ingresasdo {n1} es primo")
+   print(i)
    
 else:
      print(f"El numero ingresasdo {n1} no es primo")

@@ -1,4 +1,5 @@
-#Determinar si un número es o no es perfecto. Un numero es perfecto si la suma de sus divisores sin incluir el propio número es igual a este
+#Determinar si un número es o no es perfecto. Un numero es perfecto si la suma de sus divisores sin incluir el propio número es igual 
+#a este
 
 n1 = int(input("Digite un numero "))
 i = 2
