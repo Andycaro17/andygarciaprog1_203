@@ -14,7 +14,7 @@ print (n1)
 while True:
     i += j
     j += i
-    cont += 1 
+    cont += 2 
     if cont> n2:
        break
     print (i)
