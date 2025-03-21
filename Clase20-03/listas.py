@@ -65,8 +65,8 @@
 
 import random
 
-cantidad = random.randint(1,15)
-vector = [random.randint(1, 15) for _ in range(cantidad)]
+cantidad = random.randint(5,15)
+vector = []
 pares = []
 impares = []
 
